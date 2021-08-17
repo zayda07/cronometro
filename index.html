@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./cronometro.css">
+    <title>Cronometro</title>
+</head>
+
+<body>
+
+    <div class="cronometro">
+       <div class="counter" id="counter">
+           00:00:00.000
+       </div>
+
+       <div class="buttons">
+
+            <div class="btn">
+                <i class="fas fa-play" onclick="start()"></i>
+            </div>
+            <div class="btn">
+                <i class="fas fa-pause" onclick="pause()"></i>
+            </i></div>
+            <div class="btn">
+                <i class="fas fa-redo-alt" onclick="restart()"></i>
+            </div>
+
+       </div>
+    </div>
+
+<!-- JS -->
+<script src="./cronometro.js"></script>   
+<!-- ICONOS -->
+<script src="https://kit.fontawesome.com/340ad3b7b3.js" crossorigin="anonymous"></script> 
+</body>
+
+</html>
